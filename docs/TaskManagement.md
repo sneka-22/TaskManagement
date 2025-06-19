@@ -203,7 +203,7 @@ npm start
 ```
 
 ### **6. Access API Documentation**
-Navigate to: `http://localhost:3000/api-docs`
+Navigate to: `https://taskmanagement-tyk1.onrender.com/api-docs/#/`
 
 ##  Project Structure
 ```
