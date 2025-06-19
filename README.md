@@ -10,7 +10,6 @@ cd TaskManagement
 npm install
 3. Environment Configuration
 Create .env file in root directory:
-
 Port=3000
 JWT_SECRET=your-super-secret-jwt-key
 JWT_EXPIRATION=8640000
@@ -19,6 +18,7 @@ DB_PORT=5432
 DB_USER=postgres
 DB_PASSWORD=your-db-password
 DB_NAME=taskManagement
+
 4. Database Setup
 CREATE DATABASE taskManagement;
 -- Connect and run schema (assumed separately provided
@@ -39,5 +39,6 @@ status VARCHAR(20) DEFAULT 'pending',
 due_date DATE,
 user_id INTEGER REFERENCES users(id) ON DELETE CASCADE
 );
+
 5. Start Development Server
 npm start
